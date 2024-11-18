@@ -4,9 +4,21 @@ Ce projet a été réalisé dans le cadre de l'UE CoCoMa (Coordination et Consen
 
 ## Travail effectué
 
-Dans l'environnement Multiwalker de pettingzoo, nous avons entraîné trois agents avec plusieurs algorithmes d'apprentissage par renforcement (DPG, MADDPG, TD3) de différentes manières pour leur faire apprendre à exécuter une tâche.
+Dans l'environnement Multiwalker de pettingzoo, nous avons entraîné trois agents avec plusieurs algorithmes d'apprentissage par renforcement (DDPG, MADDPG) de différentes manières pour leur faire apprendre à exécuter une tâche.
 
 Nous avons ensuite comparé ces méthodes et cherché des améliorations.
+
+## Organisation des fichiers
+
+Les différentes versions des implémentations des algorithmes sont disponibles dans les fichiers ipynb suivants :
+
+- ```multi_agent_ddpg.ipynb```
+- ```multi_buffer_commun.ipynb```
+- ```one_agent_to_rule_them_all.ipynb```
+
+Les vidéos de certains résultats sont disponibles dans le dossier ```videos```.
+
+Les modèles entraînés sont disponibles dans le dossier ```models```.
 
 ## Librairies
 
