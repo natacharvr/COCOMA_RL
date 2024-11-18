@@ -12,9 +12,9 @@ Nous avons ensuite comparé ces méthodes et cherché des améliorations.
 
 Les différentes versions des implémentations des algorithmes sont disponibles dans les fichiers ipynb suivants :
 
-- ```multi_agent_ddpg.ipynb```
-- ```multi_buffer_commun.ipynb```
-- ```one_agent_to_rule_them_all.ipynb```
+- ```multi_agent_ddpg.ipynb``` (MADDPG, buffer individuel)
+- ```multi_buffer_commun.ipynb``` (MADDPG, buffer commun)
+- ```one_agent_to_rule_them_all.ipynb``` (DDPG)
 
 Les vidéos de certains résultats sont disponibles dans le dossier ```videos```.
 
